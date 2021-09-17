@@ -1,0 +1,16 @@
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\bin\Debug\net5.0\Exemplo.exe
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\bin\Debug\net5.0\Exemplo.deps.json
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\bin\Debug\net5.0\Exemplo.runtimeconfig.json
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\bin\Debug\net5.0\Exemplo.runtimeconfig.dev.json
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\bin\Debug\net5.0\Exemplo.dll
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\bin\Debug\net5.0\ref\Exemplo.dll
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\bin\Debug\net5.0\Exemplo.pdb
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\Exemplo.csproj.AssemblyReference.cache
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\Exemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\Exemplo.AssemblyInfoInputs.cache
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\Exemplo.AssemblyInfo.cs
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\Exemplo.csproj.CoreCompileInputs.cache
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\Exemplo.dll
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\ref\Exemplo.dll
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\Exemplo.pdb
+C:\aula\Csharp\2021\Turma37\Aula3\Exemplo\Exemplo\obj\Debug\net5.0\Exemplo.genruntimeconfig.cache
