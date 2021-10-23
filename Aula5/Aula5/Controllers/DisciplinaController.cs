@@ -7,29 +7,29 @@ using System.Threading.Tasks;
 
 namespace Aula5.Controllers
 {
-    public class AlunoController : Controller
+    public class DisciplinaController : Controller
     {
-        // GET: AlunoController
+        // GET: DisciplinaController
         public ActionResult Index()
         {
-            ViewData["Title"] = "Alunos";
+            ViewData["Title"] = "Disciplina";
             ViewData["User"] = "Daniel";
             return View();
         }
 
-        // GET: AlunoController/Details/5
+        // GET: DisciplinaController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: AlunoController/Create
+        // GET: DisciplinaController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: AlunoController/Create
+        // POST: DisciplinaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -44,13 +44,13 @@ namespace Aula5.Controllers
             }
         }
 
-        // GET: AlunoController/Edit/5
+        // GET: DisciplinaController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: AlunoController/Edit/5
+        // POST: DisciplinaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -65,13 +65,13 @@ namespace Aula5.Controllers
             }
         }
 
-        // GET: AlunoController/Delete/5
+        // GET: DisciplinaController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: AlunoController/Delete/5
+        // POST: DisciplinaController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
