@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,7 +20,7 @@ namespace Aula5.Models
         public void Salvar() {
             using (SqlConnection sqlCon = new SqlConnection(connectionString)) {
                 sqlCon.Open();
-                SqlCommand sqlCmd = new SqlCommand("INSERT INTO aluno VALUES(@nome, @ra, @cpf, @idade) ", sqlCon);
+                SqlCommand sqlCmd = new SqlCommand("INSERT INTO aluno VALUES (@nome, @ra, @cpf, @idade) ", sqlCon);
 
                 sqlCmd.Parameters.AddWithValue("@nome", nome);
                 sqlCmd.Parameters.AddWithValue("@ra", ra);

@@ -34,16 +34,12 @@ namespace Aula5.Controllers
         // POST: AlunoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(AlunoModel pModel)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            pModel.Salvar();
+
+            return RedirectToAction("index");
+           
         }
 
         // GET: AlunoController/Edit/5
