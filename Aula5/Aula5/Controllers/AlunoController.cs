@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Aula5.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -24,9 +25,10 @@ namespace Aula5.Controllers
         }
 
         // GET: AlunoController/Create
+        [HttpGet]
         public ActionResult Create()
         {
-            return View();
+            return View(new AlunoModel());
         }
 
         // POST: AlunoController/Create
