@@ -4,15 +4,38 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Aula5.Models;
 
 namespace Aula5.Controllers
 {
     public class LoginController : Controller
     {
         // GET: LoginController
+        [HttpGet]
         public ActionResult Index()
         {
-            return View();
+            return View( new UsuarioModel() );
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Logar(UsuarioModel userModel)
+        {
+            try
+            {
+                if ( userModel.Login() )
+                {
+                    return RedirectToAction("Index", "Aluno");
+                }
+                else
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+            catch 
+            {
+                return RedirectToAction("Index");
+            }
         }
 
         // GET: LoginController/Details/5

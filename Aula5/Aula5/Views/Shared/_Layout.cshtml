@@ -12,17 +12,17 @@
     <title>@ViewData["Title"] - Sistema</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="css/nprogress.css" rel="stylesheet">
+    <link href="../css/nprogress.css" rel="stylesheet">
 
     <!-- bootstrap-daterangepicker -->
-    <link href="css/daterangepicker.css" rel="stylesheet">
+    <link href="../css/daterangepicker.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="css/custom.min.css" rel="stylesheet">
+    <link href="../css/custom.min.css" rel="stylesheet">
 </head>
 
 
@@ -61,7 +61,8 @@
                                 <li>
                                     <a><i class="fa fa-home"></i> Aluno <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="Aluno">Cadastro</a></li>
+                                        <li><a href="..\Aluno">Listar</a></li>
+                                        <li><a href="..\Aluno\Create">Cadastro</a></li>
                                         <li><a href="Aluno">Matricula</a></li>
                                         <li><a href="Aluno">Histórico</a></li>
                                     </ul>
@@ -238,27 +239,27 @@
 
     <environment include="Development">
         <!-- jQuery -->
-        <script src="js/jquery.min.js"></script>
+        <script src="../js/jquery.min.js"></script>
         <!-- Bootstrap -->
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <!-- FastClick -->
-        <script src="js/fastclick.js"></script>
+        <script src="../js/fastclick.js"></script>
         <!-- NProgress -->
-        <script src="js/nprogress.js"></script>
+        <script src="../js/nprogress.js"></script>
 
         <!-- Custom Theme Scripts -->
-        <script src="js/custom.min.js"></script>
+        <script src="../js/custom.min.js"></script>
 
 
         <!-- Chart.js -->
-        <script src="js/dist/Chart.min.js"></script>
+        <script src="../js/dist/Chart.min.js"></script>
 
         <!-- DateJS -->
-        <script src="js/date.js"></script>
+        <script src="../js/date.js"></script>
 
         <!-- bootstrap-daterangepicker -->
-        <script src="js/moment.min.js"></script>
-        <script src="js/daterangepicker.js"></script>
+        <script src="../js/moment.min.js"></script>
+        <script src="../js/daterangepicker.js"></script>
     </environment>
     @RenderSection("Scripts", required: false)
 
